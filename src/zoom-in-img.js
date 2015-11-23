@@ -64,6 +64,7 @@
     event = event || window.event;
     target = event.target || event.srcElement;
     target.canZoom = !target.canZoom;
+    zoomInImg(event);
   }
 
   function zoomInImgEnter(event) {
